@@ -145,28 +145,28 @@ li a:hover {
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
                             <h6 class="font-weight-bold">HTML</h6>
-                            <h6 class="font-weight-bold">90%</h6>
+                            <h6 class="font-weight-bold">80%</h6>
                         </div>
                         <div class="w3-light-gray progress">
-                          <div class="w3-green" style="height:24px;width:90%"></div>
+                          <div class="w3-green" style="height:24px;width:80%"></div>
                         </div><br>
                     </div>
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
                             <h6 class="font-weight-bold">CSS</h6>
-                            <h6 class="font-weight-bold">88%</h6>
+                            <h6 class="font-weight-bold">80%</h6>
                         </div>
                         <div class="w3-light-gray progress">
-                          <div class="w3-yellow" style="height:24px;width:88%"></div>
+                          <div class="w3-yellow" style="height:24px;width:80%"></div>
                         </div><br>
                     </div>
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
                             <h6 class="font-weight-bold">PHP</h6>
-                            <h6 class="font-weight-bold">90%</h6>
+                            <h6 class="font-weight-bold">81%</h6>
                         </div>
                         <div class="w3-light-gray progress">
-                          <div class="w3-green" style="height:24px;width:90%"></div>
+                          <div class="w3-green" style="height:24px;width:81%"></div>
                         </div><br>
                     </div>
                 </div>
@@ -174,10 +174,10 @@ li a:hover {
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
                             <h6 class="font-weight-bold">Java</h6>
-                            <h6 class="font-weight-bold">98%</h6>
+                            <h6 class="font-weight-bold">83%</h6>
                         </div>
                         <div class="w3-light-gray progress">
-                          <div class="w3-green" style="height:24px;width:98%"></div>
+                          <div class="w3-green" style="height:24px;width:83%"></div>
                         </div><br>
                     </div>
                     <div class="skill mb-4">
@@ -192,10 +192,10 @@ li a:hover {
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
                             <h6 class="font-weight-bold">Python</h6>
-                            <h6 class="font-weight-bold">40%</h6>
+                            <h6 class="font-weight-bold">53%</h6>
                         </div>
                         <div class="w3-light-gray progress">
-                          <div class="w3-red" style="height:24px;width:40%"></div>
+                          <div class="w3-red" style="height:24px;width:53%"></div>
                         </div><br>
                     </div>
                 </div>
@@ -319,6 +319,35 @@ li a:hover {
     <!-- Qualification End -->
 
 
+  <style>
+    /* CSS for responsiveness */
+    @media (max-width: 480px) {
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+</style>
+
+<div class="position-relative d-flex align-items-center justify-content-center">
+    <h1 class="position-absolute text-uppercase text-primary" style="margin-top: 230px">Code Repositories</h1>
+</div>
+<div class="container-fluid py-5" id="skill">
+    <div class="container" style="margin-top: 190px; margin-bottom: 10px;">
+        <div style="display: flex; justify-content: space-between; justify-content: space-around;">
+            <div>
+                <h3><a href="https://github.com/P-Pranath" target="blank">GitHub</a></h3>
+                <a href="https://github.com/P-Pranath" target="blank"><img src="img/g.png"></a>
+            </div>
+            <div>
+                <h3><a href="https://leetcode.com/Pranath_/" target="blank">Leetcode</a></h3>
+                <a href="https://leetcode.com/Pranath_/" target="blank"><img src="img/l.png" height="65%" style="margin-top: 8px"></a>
+            </div>
+        </div>
+    </div>
+</div>
+  
+  
     <!-- Contact Start -->
     <center>
     <form id="myForm">
